@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+td {
+  border: 1px solid #ddd;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  th, td {
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+  }
+}

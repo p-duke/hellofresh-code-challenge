@@ -1,0 +1,20 @@
+.footer {
+  height: 175px;
+  background: white;
+}
+
+.footer__image {
+  margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    height: 185px; 
+    background: white;
+  }
+
+  .footer__image {
+    margin-left: 10px;
+  }
+}

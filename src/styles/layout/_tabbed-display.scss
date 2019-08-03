@@ -1,0 +1,48 @@
+.tab {
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button.active {
+    font-weight: 600;
+    box-shadow: $box-shadow-orange;
+    padding-bottom: 1px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+#Details {
+  display: block;
+}
+
+.ingredients {
+  margin-left: 23px;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .tab button {
+    font-size: 14px;
+  }
+
+  .tab button.active {
+    font-weight: 600;
+    box-shadow: $box-shadow-orange;
+    padding-bottom: 1px;
+  }
+
+}
