@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "jest-localstorage-mock": "^2.1.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "enzyme": "^3.2.0",
